@@ -1,0 +1,93 @@
+    1  pwd
+    2  ls
+    3  ls - la
+    4  ls -la
+    5  ls -a-l/tmp
+    6  ls -la/tmp
+    7  ls -la /tmp
+    8  man ls
+    9  man man
+   10  cd /etc
+   11  pwd
+   12  cd/etc
+   13  cd /etc
+   14  cd
+   15  pwd
+   16  cd/
+   17  cd /
+   18  ls ..
+   19  cd
+   20  ls ..
+   21  ls /boot/grub/grub.cfg 
+   22  mkdir Pippo /ls
+   23  mkdir Pippo ls
+   24  mkdir /scrivania/Pippo
+   25  mkdir ./Scrivania/Pippo
+   26  mkdie /home/Francesco/Scrivania/Pippo2
+   27  mkdir /home/Francesco/Scrivania/Pippo2
+   28  mkdir /home/nome.utente/Scrivania/Pippo2
+   29  rmdir /Scrivania/Pip*
+   30  rmdir ./Scrivania/Pip*
+   31  rm -rf
+   32  exit
+   33  uname -a
+   34  cat /proc/cpuinfo
+   35  exit
+   36  sudo ls
+   37  sudo apt-get install openssh-server
+   38  ssh pippo@192.168.22.93
+   39  cmd
+   40  dcmd
+   41  pstree
+   42  ps -e|grep apache
+   43  ps -e
+   44  ps-e|grep
+   45  ps -e|grep
+   46  ps -e|grep apache
+   47  sudo apt-get update
+   48  sudo less /etc/apt/sources.list
+   49  dpkg -l *
+   50  dpkg -l 
+   51  dpkg -l | less
+   52  apt-cache search apache
+   53  apt-cache search apache2
+   54  apt.get install apache2
+   55  sudo apt-get install apache2
+   56  apt-cache policy apache2
+   57  exit
+   58  php -cache policy apache
+   59  dpkg -L apache2
+   60  dpkg -l apache2
+   61  update apache2
+   62  upd apache2
+   63  ls 
+   64  ls -l
+   65  ls -la
+   66  man chmod
+   67  touch
+   68  tauch
+   69  touch francesco
+   70  ls fra*
+   71  ls -l fra*
+   72  man chmod
+   73  chmod 644 francesco
+   74  ls -l francesco
+   75  history 
+   76  ! 57
+   77  exit
+   78  sudo cp phpinfo.php /var/www
+   79  history >storia.18-09
+   80  ls storia.18-09 
+   81  less storia.18-09 
+   82  ls /var/log/apache2/access.log 
+   83  less /var/log/apache2/access.log 
+   84  dmesg|less
+   85  ls /proc
+   86  less /proc/cpuinfo
+   87  ls /proc
+   88  dmesg less boot
+   89  dmesg|less
+   90  dmesg less boot
+   91  dmesg less boot -V
+   92  ls storia.18-09 
+   93  history >storia.18-09

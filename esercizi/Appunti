@@ -1,0 +1,5 @@
+tail -f/var/log/apache2/error.log (Comando x cercare errori durante la programmazione)
+apt-cache search "NOME SOFTWARE" (Comando x cercare softaware su Linux)
+sudo apt-get install "NOME SOFTWARE" (Comando x installare software su Linux)
+sudo apt-get update (Comando x aggiornare database interno ai collegamenti)
+insert into "NOME TABELLA" (var1,var2,....varn) (val1,val2,val3...valn) (Comando x inserire righe all'interno di una tabella)
