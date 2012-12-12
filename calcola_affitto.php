@@ -5,8 +5,17 @@
 	</head>
 	<body>
 		<?php
-		
-		?>
+            $obbiettivo = $_POST['obbiettivo_euro'];
+            $imu = $_POST['imu'];
+            $aliquota = $_POST['aliquota'];
+            
+            
+            $risultato = ((($obbiettivo*12)+$imu)*10000)/(9700-85*$aliquota);
+            $tasse = ($risultato*0.85)*($aliquota/100);
+        ?>    
+         Per avere un mensile netto di <?php echo $obbiettivo ?> euro, sar&agrave; neccessario appliccare un affitto annuo di <?php echo number_format($risultato, 2, ',', '.') ?> euro.
+         In questo modo pagherai <?php echo $imu ?> euro di imu e un totale di <?php echo $tasse ?> euro di irpef.
+            
 		<form method="POST">
 			<table>
 				<tr>
@@ -14,15 +23,15 @@
 						<label for="Obbiettivo:Euro">Obbiettivo:Euro</label>
 					</td>
 					<td>
-						<input type="text" name="Obbiettivo:Euro" class="testo" /> al mese
+						<input type="text" name="obbiettivo_euro" class="testo" /> al mese
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<label for="IMU":  Euro">IMU: Euro</label>
+						<label for="IMU": "Euro">IMU: Euro</label>
 					</td>
 					<td>
-						<input type="text" name="IMU" class="testo" />
+						<input type="text" name="imu" class="testo" />
 					</td>
 				</tr>
                 <tr>
@@ -30,7 +39,7 @@
 						<label for="Aliquota":> Aliquota:</label>
 					</td>
 					<td>
-						<input type="text" name="Aliquota" class="testo" /> % dell'imponibile
+						<input type="text" name="aliquota" class="testo" /> % dell'imponibile
 					</td>
 				</tr>
 				<tr>
