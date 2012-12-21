@@ -1,10 +1,10 @@
 <?php
-$to = "longufrancesco@hotmail.it";
+$to = $_POST['mittente'];
 $subject = "test mail php5";
-$message = "hello";
-$headers = "From: longufrancesco@hotmail.it" ."\r\n" .
+$message = "hello mundo cruelSS";
+$headers = "From: francesco@Cagliari" ."\r\n" .
 "X-Mailer: PHP/" . phpversion ();
-"Reply-To: longufrancesco@hotmail.it" . "\r\n" .
+"Reply-To: francesco@Cagliari" . "\r\n" .
 
 var_dump($headers);
 var_dump($to);
